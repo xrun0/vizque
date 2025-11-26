@@ -1,0 +1,55 @@
+{
+  "duration_sec": 12,
+  "questions": [
+    {
+      "text": "5 + 7 kaç eder?",
+      "options": [
+        "10",
+        "11",
+        "12",
+        "13"
+      ],
+      "answer": 2
+    },
+    {
+      "text": "Türkiye'nin başkenti neresidir?",
+      "options": [
+        "İstanbul",
+        "Ankara",
+        "İzmir",
+        "Bursa"
+      ],
+      "answer": 1
+    },
+    {
+      "text": "Aşağıdakilerden hangisi Anadolu Selçukluların başkentidir?",
+      "options": [
+        "Bitlis",
+        "Konya",
+        "Afyonkarahisar",
+        "Sivas"
+      ],
+      "answer": 1
+    },
+    {
+      "text": "‘apple’ kelimesinin Türkçesi nedir?",
+      "options": [
+        "Armut",
+        "Elma",
+        "Portakal",
+        "Çilek"
+      ],
+      "answer": 1
+    },
+    {
+      "text": "3^2 = ?",
+      "options": [
+        "6",
+        "8",
+        "9",
+        "12"
+      ],
+      "answer": 2
+    }
+  ]
+}

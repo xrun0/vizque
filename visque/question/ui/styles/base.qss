@@ -1,0 +1,34 @@
+/* Temel arka plan ve metin */
+QWidget {
+  background: #F7F7F7;
+  color: #000;
+  font-size: 22px;
+}
+QLabel#subtitleLabel {
+    color: #FF0000;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+/* Birincil buton görünümü */
+QPushButton[variant="primary"] {
+  background: #3B82F6;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 10px;
+}
+QPushButton[variant="primary"]:disabled { opacity: 0.5; }
+QPushButton[variant="primary"]:hover   { filter: brightness(1.03); }
+
+/* İkincil buton (gri çerçeveli) */
+QPushButton[variant="secondary"] {
+  background: #FFFFFF;
+  color: #1F2937;
+  border: 1px solid #D1D5DB;
+  padding: 10px 16px;
+  border-radius: 10px;
+}
+QPushButton[variant="secondary"]:hover {
+  background: #F3F4F6;
+}
