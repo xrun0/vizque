@@ -5,6 +5,7 @@ from PyQt5.QtWidgets import (
 )
 from PyQt5.QtCore import Qt,pyqtSignal
 from PyQt5.QtGui import QPixmap
+from pathlib import Path
 
 
 class ResultPage(QWidget):
@@ -53,26 +54,33 @@ class ResultPage(QWidget):
 
         root.addWidget(self.homeButton, alignment=Qt.AlignCenter)
 
+        BASE_DIR = Path(__file__).resolve().parent.parent
+        IMG_DIR  = BASE_DIR / "img"
 
-
-        # === ALT LOGO SATIRI ===
-        logoRow = QHBoxLayout()
-        logoRow.setSpacing(32)
-        logoRow.setAlignment(Qt.AlignCenter)
-
-        # Burada kendi logo dosyalarının yollarını kullan
-        self.logo1 = self._createLogoLabel("ui/img/logo_benimsehrim.png")
-        self.logo2 = self._createLogoLabel("ui/img/logo_konya.png")
-        self.logo3 = self._createLogoLabel("ui/img/logo_komek.png")
-        self.logo4 = self._createLogoLabel("ui/img/logo_genckomek.png")
-
-        for lbl in (self.logo1, self.logo2, self.logo3, self.logo4):
-            logoRow.addWidget(lbl)
-
-        root.addLayout(logoRow)
+        logos = QHBoxLayout()
+        logos.setSpacing(18)
+        self.logo1 = self._logo(str(IMG_DIR / "5.png"))
+        logos.addStretch(1)
+        logos.addWidget(self.logo1)
+        logos.addStretch(1)
+        logos_wrap = QWidget()
+        logos_wrap.setObjectName("logosWrap")
+        logos_wrap.setLayout(logos)
+        root.addStretch(1)
+        root.addWidget(logos_wrap)
 
     # ----------------- yardımcılar -----------------
-
+    def _logo(self, path: str) -> QLabel:
+        lbl = QLabel()
+        lbl.setObjectName("logo")
+        lbl.setAlignment(Qt.AlignCenter)
+        pix = QPixmap(path)
+        if not pix.isNull():
+            pix = pix.scaledToHeight(50, Qt.SmoothTransformation)
+            lbl.setPixmap(pix)
+        lbl.setMinimumSize(100, 50)
+        return lbl
+    
     def _createResultCard(self, title: str) -> QFrame:
         card = QFrame()
         card.setObjectName("resultCard")

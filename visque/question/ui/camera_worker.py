@@ -61,11 +61,11 @@ def process_frame(frame):
 
     gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
 
-    blur = cv2.GaussianBlur(gray, (9,9), 0)
-    blur2 = cv2.medianBlur(blur, 7)
-    blur3 = cv2.bilateralFilter(blur2, d=7, sigmaColor=75, sigmaSpace=75)
+    blur = cv2.GaussianBlur(gray, (11,11), 0)
+    blur2 = cv2.medianBlur(blur, 9)
+    blur3 = cv2.bilateralFilter(blur2, d=9, sigmaColor=75, sigmaSpace=75)
 
-    _, thresh = cv2.threshold(blur3, 3, 255, cv2.THRESH_BINARY_INV)
+    _, thresh = cv2.threshold(blur3, 6, 255, cv2.THRESH_BINARY_INV)
 
     contours, hierarchy = cv2.findContours(
         thresh, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE

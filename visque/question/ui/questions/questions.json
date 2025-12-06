@@ -1,55 +1,485 @@
 {
-  "duration_sec": 12,
+  "duration_sec": 90,
   "questions": [
     {
-      "text": "5 + 7 kaç eder?",
+      "text": "Konya hangi bölgededir?",
       "options": [
-        "10",
-        "11",
-        "12",
-        "13"
+        "Karadeniz Bölgesi",
+        "Ege Bölgesi",
+        "İç Anadolu Bölgesi",
+        "Akdeniz Bölgesi"
       ],
       "answer": 2
     },
     {
-      "text": "Türkiye'nin başkenti neresidir?",
+      "text": "Mevlânâ Celâleddîn-i Rûmî’nin türbesi Konya’nın hangi ilçesindedir?",
+      "options": [
+        "Meram",
+        "Karatay",
+        "Selçuklu",
+        "Çumra"
+      ],
+      "answer": 1
+    },
+    {
+      "text": "Konya'nın ünlü yemeği 'Etli Ekmek' hangi et türüyle yapılır?",
+      "options": [
+        "Dana eti",
+        "Kuzu eti",
+        "Tavuk eti",
+        "Hindi eti"
+      ],
+      "answer": 0
+    },
+    {
+      "text": "Konya'nın simgesi haline gelmiş spor kulübü hangisidir?",
+      "options": [
+        "Eskişehirspor",
+        "Konyaspor",
+        "Denizlispor",
+        "Kayserispor"
+      ],
+      "answer": 1
+    },
+    {
+      "text": "Aşağıdakilerden hangisi Konya'nın meşhur tatlısıdır?",
+      "options": [
+        "Cevizli baklava",
+        "Höşmerim",
+        "Höşmerim",
+        "Etli ekmek tatlısı"
+      ],
+      "answer": 1
+    },
+    {
+      "text": "Konya Ovası Türkiye’nin en ... ovalarından biridir. Cümleyi tamamlayınız.",
+      "options": [
+        "Küçük",
+        "Verimsiz",
+        "Büyük",
+        "Dağlık"
+      ],
+      "answer": 2
+    },
+    {
+      "text": "Konya’da bulunan Çatalhöyük hangi özellik açısından önemlidir?",
+      "options": [
+        "Dünyanın en eski yerleşimlerinden biridir",
+        "Bir Osmanlı sarayıdır",
+        "Roma İmparatorluğu’nun başkentidir",
+        "Modern bir teknoloji merkezidir"
+      ],
+      "answer": 0
+    },
+    {
+      "text": "Aşağıdakilerden hangisi Konya’nın ilçesidir?",
+      "options": [
+        "İnegöl",
+        "Akşehir",
+        "Ereğli (Zonguldak)",
+        "Nazilli"
+      ],
+      "answer": 1
+    },
+    {
+      "text": "Konya’nın ünlü düğün yemeği hangisidir?",
+      "options": [
+        "Tirit",
+        "Mantı",
+        "Keşkek",
+        "Humus"
+      ],
+      "answer": 0
+    },
+    {
+      "text": "Konya, Türkiye’nin yüzölçümü olarak kaçıncı büyük ilidir?",
+      "options": [
+        "1.",
+        "2.",
+        "3.",
+        "4."
+      ],
+      "answer": 0
+    },
+    {
+      "text": "Mevlana Müzesi’nin içinde yer alan yapıların genel adı nedir?",
+      "options": [
+        "Selimiye Külliyesi",
+        "Mevlevihane",
+        "Medrese-i Rûmi",
+        "Han-ı Mevlânâ"
+      ],
+      "answer": 1
+    },
+    {
+      "text": "Sema ayini hangi tarikat geleneğine aittir?",
+      "options": [
+        "Kadiri",
+        "Bektaşi",
+        "Mevlevi",
+        "Nakşi"
+      ],
+      "answer": 2
+    },
+    {
+      "text": "Konya Bilim Merkezi Türkiye’de hangi kurum tarafından kurulmuştur?",
+      "options": [
+        "TÜBİTAK",
+        "NASA",
+        "UNESCO",
+        "Milli Eğitim Bakanlığı"
+      ],
+      "answer": 0
+    },
+    {
+      "text": "Aşağıdaki göllerden hangisi Konya sınırları içindedir?",
+      "options": [
+        "Tuz Gölü",
+        "Van Gölü",
+        "Beyşehir Gölü",
+        "Sapanca Gölü"
+      ],
+      "answer": 2
+    },
+    {
+      "text": "Konya’nın tarihi kapalı çarşısı hangisidir?",
+      "options": [
+        "Uzun Çarşı",
+        "Bedesten",
+        "Arasta",
+        "Hanlar Bölgesi"
+      ],
+      "answer": 1
+    },
+    {
+      "text": "Konya’nın meşhur içeceği hangisidir?",
+      "options": [
+        "Ayran",
+        "Bamya çorbası",
+        "Kavurga suyu",
+        "Tahir çorbası"
+      ],
+      "answer": 3
+    },
+    {
+      "text": "Nasreddin Hoca’nın türbesi Konya’nın hangi ilçesindedir?",
+      "options": [
+        "Seydişehir",
+        "Akşehir",
+        "Kulu",
+        "Cihanbeyli"
+      ],
+      "answer": 1
+    },
+    {
+      "text": "Konya’nın tarımsal üretimde en çok yetiştirdiği ürün hangisidir?",
+      "options": [
+        "Çay",
+        "Buğday",
+        "Fındık",
+        "Mısır"
+      ],
+      "answer": 1
+    },
+    {
+      "text": "Konya’da yapılan geleneksel düğün yemeğinde en çok kullanılan çorba hangisidir?",
+      "options": [
+        "Tarhana",
+        "Yayla çorbası",
+        "Bamya çorbası",
+        "Mercimek çorbası"
+      ],
+      "answer": 2
+    },
+    {
+      "text": "Konya Tropikal Kelebek Bahçesi hangi ilçededir?",
+      "options": [
+        "Selçuklu",
+        "Meram",
+        "Karatay",
+        "Ereğli"
+      ],
+      "answer": 0
+    },
+    {
+      "text": "Konya Şeker Fabrikası hangi ürünle ünlüdür?",
+      "options": [
+        "Kahve",
+        "Şeker pancarı",
+        "Pamuk",
+        "Tütün"
+      ],
+      "answer": 1
+    },
+    {
+      "text": "Aşağıdakilerden hangisi Konya’nın komşusudur?",
       "options": [
         "İstanbul",
-        "Ankara",
-        "İzmir",
-        "Bursa"
+        "Antalya",
+        "Sivas",
+        "Van"
       ],
       "answer": 1
     },
     {
-      "text": "Aşağıdakilerden hangisi Anadolu Selçukluların başkentidir?",
+      "text": "Konya’daki Alaaddin Tepesi hangi özellikleriyle bilinir?",
       "options": [
-        "Bitlis",
-        "Konya",
-        "Afyonkarahisar",
-        "Sivas"
+        "Roma İmparatorluğu’nun başkenti",
+        "Selçuklu saray kalıntılarına ev sahipliği yapar",
+        "Volkanik bir dağdır",
+        "Plajları ile ünlüdür"
       ],
       "answer": 1
     },
     {
-      "text": "‘apple’ kelimesinin Türkçesi nedir?",
+      "text": "Sille hangi ilçe sınırları içindedir?",
       "options": [
-        "Armut",
-        "Elma",
-        "Portakal",
-        "Çilek"
+        "Karatay",
+        "Selçuklu",
+        "Meram",
+        "Seydişehir"
       ],
       "answer": 1
     },
     {
-      "text": "3^2 = ?",
+      "text": "Aşağıdaki yapılardan hangisi Konya'da bulunur?",
       "options": [
-        "6",
-        "8",
-        "9",
-        "12"
+        "Aziziye Camii",
+        "Ayasofya",
+        "Ulu Cami (Diyarbakır)",
+        "İshak Paşa Sarayı"
+      ],
+      "answer": 0
+    },
+    {
+      "text": "Konya'nın en bilinen müzelerinden biri hangisidir?",
+      "options": [
+        "Oyuncak Müzesi",
+        "Mevlana Müzesi",
+        "Kahve Müzesi",
+        "Halı Müzesi"
+      ],
+      "answer": 1
+    },
+    {
+      "text": "Konya’da yapılan yerel oyunlardan biri hangisidir?",
+      "options": [
+        "Horon",
+        "Zeybek",
+        "Kaşık Oyunu",
+        "Halay"
       ],
       "answer": 2
+    },
+    {
+      "text": "Konya’nın meşhur tahin markalarının ortaya çıktığı ilçe hangisidir?",
+      "options": [
+        "Seydişehir",
+        "Kulu",
+        "Akşehir",
+        "Bozkır"
+      ],
+      "answer": 3
+    },
+    {
+      "text": "Konya’da bulunan İnce Minareli Medrese hangi döneme aittir?",
+      "options": [
+        "Osmanlı",
+        "Roma",
+        "Selçuklu",
+        "Cumhuriyet"
+      ],
+      "answer": 2
+    },
+    {
+      "text": "Konya’nın en uzun karayolu tüneli hangisidir?",
+      "options": [
+        "Seydişehir Tüneli",
+        "Alacabel Tüneli",
+        "Bozdağ Tüneli",
+        "Çatalhöyük Tüneli"
+      ],
+      "answer": 1
+    },
+    {
+      "text": "Konya'da yetiştirilen en ünlü hayvan türü hangisidir?",
+      "options": [
+        "İpek böceği",
+        "Tiftik keçisi",
+        "Bozkır koyunu",
+        "Manda"
+      ],
+      "answer": 2
+    },
+    {
+      "text": "Konya’da bulunan Karapınar bölgesi hangi doğal oluşumla ünlüdür?",
+      "options": [
+        "Obruklar",
+        "Buzullar",
+        "Volkanik dağlar",
+        "Fiyortlar"
+      ],
+      "answer": 0
+    },
+    {
+      "text": "Konya’da bulunan Zazadin Hanı hangi yapılar sınıfındadır?",
+      "options": [
+        "Köprü",
+        "Han/Kervansaray",
+        "Medrese",
+        "Beylik sarayı"
+      ],
+      "answer": 1
+    },
+    {
+      "text": "Konya’da yer alan Kelebekler Vadisi hangi özelliğiyle bilinir?",
+      "options": [
+        "Deniz kıyısındadır",
+        "Bir doğa parkıdır",
+        "Tropikal kelebek türlerini barındırır",
+        "Dağcılık sporları için uygundur"
+      ],
+      "answer": 2
+    },
+    {
+      "text": "Konya’nın iklimi genel olarak nasıldır?",
+      "options": [
+        "Ekvator tipi iklim",
+        "Karadeniz iklimi",
+        "Karasal iklim",
+        "Tropikal iklim"
+      ],
+      "answer": 2
+    },
+    {
+      "text": "Aşağıdakilerden hangisi Konya’nın eski isimlerindendir?",
+      "options": [
+        "Ikonion",
+        "Sagalassos",
+        "Tlos",
+        "Aphrodisias"
+      ],
+      "answer": 0
+    },
+    {
+      "text": "Konya’nın meşhur tatlısı ‘Konya Küflü Peyniri’ hangi ilçede ünlüdür?",
+      "options": [
+        "Akşehir",
+        "Kulu",
+        "Ereğli",
+        "Seydişehir"
+      ],
+      "answer": 0
+    },
+    {
+      "text": "Konya’daki en büyük organize sanayi bölgesi nerededir?",
+      "options": [
+        "Meram",
+        "Selçuklu",
+        "Karatay",
+        "Sarayönü"
+      ],
+      "answer": 1
+    },
+    {
+      "text": "Konya’daki Meram bağları hangi özelliğiyle bilinir?",
+      "options": [
+        "Karadeniz yaylalarına benzer",
+        "Serin ve gölgeli piknik alanlarıdır",
+        "Deniz turizmi yapılır",
+        "Sualtı mağaraları vardır"
+      ],
+      "answer": 1
+    },
+    {
+      "text": "Konya’da bulunan Beyşehir Gölü Türkiye’nin kaçıncı büyük gölüdür?",
+      "options": [
+        "1.",
+        "2.",
+        "3.",
+        "4."
+      ],
+      "answer": 1
+    },
+    {
+      "text": "Konya’daki Tropikal Kelebek Bahçesi kaçıncı yılda açılmıştır?",
+      "options": [
+        "2005",
+        "2010",
+        "2015",
+        "2020"
+      ],
+      "answer": 2
+    },
+    {
+      "text": "Konya'nın ünlü hamur işi hangisidir?",
+      "options": [
+        "Pide",
+        "Tandır böreği",
+        "Somun",
+        "Katmer"
+      ],
+      "answer": 1
+    },
+    {
+      "text": "Konya Bilim Merkezi’nin tasarımında hangi geometrik yapı dikkat çeker?",
+      "options": [
+        "Piramit şekli",
+        "Gökkuşağı kemeri",
+        "Uzay mekiği formu",
+        "Kubbeli yapı"
+      ],
+      "answer": 3
+    },
+    {
+      "text": "Konya'nın en bilinen höyüğü hangisidir?",
+      "options": [
+        "Alacahöyük",
+        "Çatalhöyük",
+        "Göbeklitepe",
+        "Karahöyük"
+      ],
+      "answer": 1
+    },
+    {
+      "text": "Sille taş evleri hangi özelliğiyle ünlüdür?",
+      "options": [
+        "Karadeniz mimarisine benzer",
+        "Tamamen ahşaptır",
+        "Tarihi Rum mimarisini yansıtır",
+        "Modern yapıdır"
+      ],
+      "answer": 2
+    },
+    {
+      "text": "Konya’nın simgesi haline gelmiş canlı türü hangisidir?",
+      "options": [
+        "Van kedisi",
+        "Akdeniz fokları",
+        "Bozkır kartalı",
+        "Turna kuşu"
+      ],
+      "answer": 3
+    },
+    {
+      "text": "Konya'nın plaka numarası kaçtır?",
+      "options": [
+        "41",
+        "42",
+        "43",
+        "44"
+      ],
+      "answer": 1
+    },
+    {
+      "text": "Türkiye’nin yüzölçümü en geniş ovası olan ‘Konya Ovası’ hangi bölgede bulunur?",
+      "options": [
+        "Doğu Anadolu",
+        "İç Anadolu",
+        "Marmara",
+        "Ege"
+      ],
+      "answer": 1
     }
   ]
 }

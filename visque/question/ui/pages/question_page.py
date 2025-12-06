@@ -5,6 +5,7 @@ from PyQt5.QtWidgets import (
 )
 from PyQt5.QtCore import Qt, QEvent, pyqtSignal, QTimer
 from PyQt5.QtGui import QPixmap
+from pathlib import Path
 
 
 class QuestionPage(QWidget):
@@ -93,18 +94,20 @@ class QuestionPage(QWidget):
         root.addWidget(self.answersWrap, 0, Qt.AlignHCenter)
         root.addStretch(1)
 
+        BASE_DIR = Path(__file__).resolve().parent.parent
+        IMG_DIR  = BASE_DIR / "img"
         # ==== ALT LOGOLAR (opsiyonel) ====
         logos = QHBoxLayout()
         logos.setSpacing(18)
-        self.logo1 = QLabel(); self.logo2 = QLabel(); self.logo3 = QLabel(); self.logo4 = QLabel()
-        for l in (self.logo1, self.logo2, self.logo3, self.logo4):
-            l.setObjectName("bottomLogo")
-            l.setMinimumSize(100, 40)
-            l.setAlignment(Qt.AlignCenter)
-        logos.addStretch(1); logos.addWidget(self.logo1); logos.addWidget(self.logo2)
-        logos.addWidget(self.logo3); logos.addWidget(self.logo4); logos.addStretch(1)
-        lw = QWidget(); lw.setObjectName("logosWrap"); lw.setLayout(logos)
-        root.addWidget(lw)
+        self.logo1 = self._logo(str(IMG_DIR / "5.png"))
+        logos.addStretch(1)
+        logos.addWidget(self.logo1)
+        logos.addStretch(1)
+        logos_wrap = QWidget()
+        logos_wrap.setObjectName("logosWrap")
+        logos_wrap.setLayout(logos)
+        root.addStretch(1)
+        root.addWidget(logos_wrap)
 
         # ==== TIMER STATE ====
         self._remaining = 0
@@ -142,7 +145,18 @@ class QuestionPage(QWidget):
             pm = QPixmap(p)
             if not pm.isNull():
                 labels[i].setPixmap(pm.scaledToHeight(40, Qt.SmoothTransformation))
-
+   
+    def _logo(self, path: str) -> QLabel:
+        lbl = QLabel()
+        lbl.setObjectName("logo")
+        lbl.setAlignment(Qt.AlignCenter)
+        pix = QPixmap(path)
+        if not pix.isNull():
+            pix = pix.scaledToHeight(50, Qt.SmoothTransformation)
+            lbl.setPixmap(pix)
+        lbl.setMinimumSize(100, 50)
+        return lbl
+    
     # Durum (QSS ile renklendirmek için)
     def setAnswerState(self, index: int, state: str):
         if 0 <= index < len(self.optionCards):
@@ -154,7 +168,7 @@ class QuestionPage(QWidget):
     def startTimer(self, seconds: int):
         self._remaining = max(0, int(seconds))
         self._render_time()
-        self._timer.start(2000)
+        self._timer.start(1000)
 
     def resetTimer(self, seconds: int):
         self._timer.stop()
@@ -249,5 +263,5 @@ class QuestionPage(QWidget):
             self.setAnswerState(opt_idx, "selected")
     
             # 4b) Sanki kullanıcı o karta tıklamış gibi sinyali gönder
-            self.answerSelected.emit(opt_idx)
+            #self.answerSelected.emit(opt_idx)
         
