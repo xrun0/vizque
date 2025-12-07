@@ -9,6 +9,7 @@ from PyQt5.QtCore import QThread, pyqtSlot, QTimer,QUrl
 from PyQt5.QtMultimedia import QSoundEffect
 
 from camera_worker import CameraWorker
+from animation import GeriSayimLabel
 # Çalışma dizininin proje kökü olduğundan emin olalım
 sys.path.insert(0, os.path.dirname(__file__))
 
@@ -31,6 +32,7 @@ class MainWindow(QMainWindow):
         self.question_page = QuestionPage()
         self.result_page = ResultPage()
         self.projection = ProjectionWindow()
+        self.geri_sayim = GeriSayimLabel(self)
         self.in_feedback = False
         # Projeksiyonu 2. ekrana al
         screens = QApplication.screens()
@@ -88,13 +90,14 @@ class MainWindow(QMainWindow):
 
         # (İstersen debug görüntü)
         self.camera_worker.frameReady.connect(self.on_debug_frame)
-
+        self.geri_sayim.baslat()
+        QTimer.singleShot(3000, self.camera_background_ready)
         # Soruları yükle
+
+    def camera_background_ready(self):
         self.load_questions()
         print("Kart tıklandı, QuestionPage açılıyor...")
         self.stack.setCurrentWidget(self.question_page)
-
-        # İlk soruyu göster
         self.show_current_question()
         self.start_countdown_sound()
 

@@ -67,16 +67,34 @@ class StartPage(QWidget):
 
 
         # GÖRSELİ YÜKLE - STATİK DOSYA YOLU
-        pix = QPixmap(str(IMG_DIR / "6.png"))   # <-- Buraya kendi yolunu yaz
-        print("pix null mu?", pix.isNull()) 
-        self.img.setPixmap(pix.scaledToWidth(200, Qt.SmoothTransformation))
-        self.img.mousePressEvent = self.on_image_clicked
-        self.img.setPixmap(pix)
-        root.addWidget(self.img)
+        # Gerekli import (Eğer ekli değilse ekle)
+
+        # 1. Görseli Yükle
+        resim_yolu = str(IMG_DIR / "6.png")
+        pix = QPixmap(resim_yolu)
+
+        # Resim başarıyla yüklendi mi kontrol et
+        if not pix.isNull():
+            
+            # 2. Resmi Boyutlandır (Örn: Genişlik 800px olsun, yükseklik otomatik)
+            # Qt.SmoothTransformation: Resim küçülürken tırtıklı olmasını engeller, pürüzsüz yapar.
+            yeni_pix = pix.scaledToWidth(320, Qt.SmoothTransformation)
+            
+            # 3. Label'a Boyutlanmış Resmi Ata
+            self.img.setPixmap(yeni_pix)
+            
+            # 4. Tıklama Özelliğini Ekle
+            self.img.mousePressEvent = self.on_image_clicked
+            
+            # 5. Arayüze Ekle
+            root.addWidget(self.img)
+
+        else:
+            print(f"HATA: Resim yüklenemedi! Yol: {resim_yolu}")
 
 
         logos = QHBoxLayout()
-        logos.setSpacing(18)
+        logos.setSpacing(80)
         self.logo1 = self._logo(str(IMG_DIR / "7.png"))
         logos.addStretch(1)
         logos.addWidget(self.logo1)
@@ -98,9 +116,9 @@ class StartPage(QWidget):
         lbl.setAlignment(Qt.AlignCenter)
         pix = QPixmap(path)
         if not pix.isNull():
-            pix = pix.scaledToHeight(50, Qt.SmoothTransformation)
+            pix = pix.scaledToHeight(100, Qt.SmoothTransformation)
             lbl.setPixmap(pix)
-        lbl.setMinimumSize(100, 50)
+        lbl.setMinimumSize(600, 300)
         return lbl
     
     def _make_clickable(self, widget: QWidget, category_key: str):

@@ -76,9 +76,9 @@ class ResultPage(QWidget):
         lbl.setAlignment(Qt.AlignCenter)
         pix = QPixmap(path)
         if not pix.isNull():
-            pix = pix.scaledToHeight(50, Qt.SmoothTransformation)
+            pix = pix.scaledToHeight(100, Qt.SmoothTransformation)
             lbl.setPixmap(pix)
-        lbl.setMinimumSize(100, 50)
+        lbl.setMinimumSize(600, 300)
         return lbl
     
     def _createResultCard(self, title: str) -> QFrame:

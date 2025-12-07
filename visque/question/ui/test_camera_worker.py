@@ -1,7 +1,7 @@
 # ui/test_camera_worker.py
 
 import cv2
-from camera_worker import process_frame  # aynı klasörde olduğu için doğrudan import
+from camera_worker2 import process_frame  # aynı klasörde olduğu için doğrudan import
 
 def main():
     cap = cv2.VideoCapture(0)  # Gerekirse 1,2 diye değiştir
