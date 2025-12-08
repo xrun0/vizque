@@ -108,7 +108,7 @@ class MainWindow(QMainWindow):
             data = json.load(f)
 
         all_questions = data.get("questions", [])
-        self.questions = random.sample(all_questions, 5)
+        self.questions = random.sample(all_questions, 20)
 
         # Süre
         self.duration_sec = int(data.get("duration_sec", 10))
