@@ -1,485 +1,1265 @@
 {
-  "duration_sec": 20,
+  "duration_sec": 25,
   "questions": [
     {
-      "text": "Konya hangi bölgededir?",
-      "options": [
-        "Karadeniz Bölgesi",
-        "Ege Bölgesi",
-        "İç Anadolu Bölgesi",
-        "Akdeniz Bölgesi"
-      ],
-      "answer": 2
-    },
-    {
-      "text": "Mevlânâ Celâleddîn-i Rûmî’nin türbesi Konya’nın hangi ilçesindedir?",
-      "options": [
-        "Meram",
-        "Karatay",
-        "Selçuklu",
-        "Çumra"
-      ],
-      "answer": 1
-    },
-    {
-      "text": "Konya'nın ünlü yemeği 'Etli Ekmek' hangi et türüyle yapılır?",
-      "options": [
-        "Dana eti",
-        "Kuzu eti",
-        "Tavuk eti",
-        "Hindi eti"
-      ],
-      "answer": 0
-    },
-    {
-      "text": "Konya'nın simgesi haline gelmiş spor kulübü hangisidir?",
-      "options": [
-        "Eskişehirspor",
-        "Konyaspor",
-        "Denizlispor",
-        "Kayserispor"
-      ],
-      "answer": 1
-    },
-    {
-      "text": "Aşağıdakilerden hangisi Konya'nın meşhur tatlısıdır?",
-      "options": [
-        "Cevizli baklava",
-        "Höşmerim",
-        "Höşmerim",
-        "Etli ekmek tatlısı"
-      ],
-      "answer": 1
-    },
-    {
-      "text": "Konya Ovası Türkiye’nin en ... ovalarından biridir. Cümleyi tamamlayınız.",
-      "options": [
-        "Küçük",
-        "Verimsiz",
-        "Büyük",
-        "Dağlık"
-      ],
-      "answer": 2
-    },
-    {
-      "text": "Konya’da bulunan Çatalhöyük hangi özellik açısından önemlidir?",
-      "options": [
-        "Dünyanın en eski yerleşimlerinden biridir",
-        "Bir Osmanlı sarayıdır",
-        "Roma İmparatorluğu’nun başkentidir",
-        "Modern bir teknoloji merkezidir"
-      ],
-      "answer": 0
-    },
-    {
-      "text": "Aşağıdakilerden hangisi Konya’nın ilçesidir?",
-      "options": [
-        "İnegöl",
-        "Akşehir",
-        "Ereğli (Zonguldak)",
-        "Nazilli"
-      ],
-      "answer": 1
-    },
-    {
-      "text": "Konya’nın ünlü düğün yemeği hangisidir?",
-      "options": [
-        "Tirit",
-        "Mantı",
-        "Keşkek",
-        "Humus"
-      ],
-      "answer": 0
-    },
-    {
-      "text": "Konya, Türkiye’nin yüzölçümü olarak kaçıncı büyük ilidir?",
-      "options": [
-        "1.",
-        "2.",
-        "3.",
-        "4."
-      ],
-      "answer": 0
-    },
-    {
-      "text": "Mevlana Müzesi’nin içinde yer alan yapıların genel adı nedir?",
-      "options": [
-        "Selimiye Külliyesi",
-        "Mevlevihane",
-        "Medrese-i Rûmi",
-        "Han-ı Mevlânâ"
-      ],
-      "answer": 1
-    },
-    {
-      "text": "Sema ayini hangi tarikat geleneğine aittir?",
-      "options": [
-        "Kadiri",
-        "Bektaşi",
-        "Mevlevi",
-        "Nakşi"
-      ],
-      "answer": 2
-    },
-    {
-      "text": "Konya Bilim Merkezi Türkiye’de hangi kurum tarafından kurulmuştur?",
-      "options": [
-        "TÜBİTAK",
-        "NASA",
-        "UNESCO",
-        "Milli Eğitim Bakanlığı"
-      ],
-      "answer": 0
-    },
-    {
-      "text": "Aşağıdaki göllerden hangisi Konya sınırları içindedir?",
-      "options": [
-        "Tuz Gölü",
-        "Van Gölü",
-        "Beyşehir Gölü",
-        "Sapanca Gölü"
-      ],
-      "answer": 2
-    },
-    {
-      "text": "Konya’nın tarihi kapalı çarşısı hangisidir?",
-      "options": [
-        "Uzun Çarşı",
-        "Bedesten",
-        "Arasta",
-        "Hanlar Bölgesi"
-      ],
-      "answer": 1
-    },
-    {
-      "text": "Konya’nın meşhur içeceği hangisidir?",
-      "options": [
-        "Ayran",
-        "Bamya çorbası",
-        "Kavurga suyu",
-        "Tahir çorbası"
-      ],
-      "answer": 3
-    },
-    {
-      "text": "Nasreddin Hoca’nın türbesi Konya’nın hangi ilçesindedir?",
-      "options": [
-        "Seydişehir",
-        "Akşehir",
-        "Kulu",
-        "Cihanbeyli"
-      ],
-      "answer": 1
-    },
-    {
-      "text": "Konya’nın tarımsal üretimde en çok yetiştirdiği ürün hangisidir?",
-      "options": [
-        "Çay",
-        "Buğday",
-        "Fındık",
-        "Mısır"
-      ],
-      "answer": 1
-    },
-    {
-      "text": "Konya’da yapılan geleneksel düğün yemeğinde en çok kullanılan çorba hangisidir?",
-      "options": [
-        "Tarhana",
-        "Yayla çorbası",
-        "Bamya çorbası",
-        "Mercimek çorbası"
-      ],
-      "answer": 2
-    },
-    {
-      "text": "Konya Tropikal Kelebek Bahçesi hangi ilçededir?",
-      "options": [
-        "Selçuklu",
-        "Meram",
-        "Karatay",
-        "Ereğli"
-      ],
-      "answer": 0
-    },
-    {
-      "text": "Konya Şeker Fabrikası hangi ürünle ünlüdür?",
-      "options": [
-        "Kahve",
-        "Şeker pancarı",
-        "Pamuk",
-        "Tütün"
-      ],
-      "answer": 1
-    },
-    {
-      "text": "Aşağıdakilerden hangisi Konya’nın komşusudur?",
+      "text": "Türkiye’nin başkenti neresidir?",
       "options": [
         "İstanbul",
-        "Antalya",
-        "Sivas",
-        "Van"
+        "Ankara",
+        "İzmir",
+        "Bursa"
       ],
       "answer": 1
     },
     {
-      "text": "Konya’daki Alaaddin Tepesi hangi özellikleriyle bilinir?",
+      "text": "Güneş’e en yakın gezegen hangisidir?",
       "options": [
-        "Roma İmparatorluğu’nun başkenti",
-        "Selçuklu saray kalıntılarına ev sahipliği yapar",
-        "Volkanik bir dağdır",
-        "Plajları ile ünlüdür"
+        "Venüs",
+        "Mars",
+        "Merkür",
+        "Dünya"
       ],
-      "answer": 1
+      "answer": 2
     },
     {
-      "text": "Sille hangi ilçe sınırları içindedir?",
+      "text": "“Kırmızı gezegen” olarak bilinen gezegen hangisidir?",
       "options": [
-        "Karatay",
-        "Selçuklu",
-        "Meram",
-        "Seydişehir"
-      ],
-      "answer": 1
-    },
-    {
-      "text": "Aşağıdaki yapılardan hangisi Konya'da bulunur?",
-      "options": [
-        "Aziziye Camii",
-        "Ayasofya",
-        "Ulu Cami (Diyarbakır)",
-        "İshak Paşa Sarayı"
+        "Mars",
+        "Jüpiter",
+        "Satürn",
+        "Neptün"
       ],
       "answer": 0
     },
     {
-      "text": "Konya'nın en bilinen müzelerinden biri hangisidir?",
+      "text": "Türkiye’nin en büyük yüzölçümüne sahip gölü hangisidir?",
       "options": [
-        "Oyuncak Müzesi",
-        "Mevlana Müzesi",
-        "Kahve Müzesi",
-        "Halı Müzesi"
+        "Tuz Gölü",
+        "Eğirdir Gölü",
+        "Van Gölü",
+        "Beyşehir Gölü"
+      ],
+      "answer": 2
+    },
+    {
+      "text": "Aşağıdakilerden hangisi bir mevsim değildir?",
+      "options": [
+        "İlkbahar",
+        "Yaz",
+        "Sonbahar",
+        "Yağmur"
+      ],
+      "answer": 3
+    },
+    {
+      "text": "Bir saatte kaç dakika vardır?",
+      "options": [
+        "30",
+        "45",
+        "60",
+        "90"
+      ],
+      "answer": 2
+    },
+    {
+      "text": "Aşağıdakilerden hangisi yenilenebilir bir enerji kaynağıdır?",
+      "options": [
+        "Kömür",
+        "Petrol",
+        "Güneş",
+        "Doğalgaz"
+      ],
+      "answer": 2
+    },
+    {
+      "text": "“Pamuk Prenses” masalında Pamuk Prenses’e yardım edenler kimlerdir?",
+      "options": [
+        "Yedi Cüceler",
+        "Üç Ayı",
+        "Fareler",
+        "Devler"
+      ],
+      "answer": 0
+    },
+    {
+      "text": "Türkiye’nin bayrağında hangi şekiller vardır?",
+      "options": [
+        "Kare ve yıldız",
+        "Ay ve yıldız",
+        "Üçgen ve ay",
+        "Daire ve yıldız"
       ],
       "answer": 1
     },
     {
-      "text": "Konya’da yapılan yerel oyunlardan biri hangisidir?",
+      "text": "Aşağıdakilerden hangisi bir masal türü kahramanıdır?",
       "options": [
-        "Horon",
+        "Rapunzel",
+        "Newton",
+        "Edison",
+        "Leonardo da Vinci"
+      ],
+      "answer": 0
+    },
+    {
+      "text": "İnsan vücudunda kanı vücuda pompalayan organ hangisidir?",
+      "options": [
+        "Mide",
+        "Karaciğer",
+        "Kalp",
+        "Akciğer"
+      ],
+      "answer": 2
+    },
+    {
+      "text": "Türkiye’nin para birimi nedir?",
+      "options": [
+        "Dolar",
+        "Euro",
+        "Lira",
+        "Sterlin"
+      ],
+      "answer": 2
+    },
+    {
+      "text": "Dünyamızın uydusunun adı nedir?",
+      "options": [
+        "Güneş",
+        "Ay",
+        "Mars",
+        "Venüs"
+      ],
+      "answer": 1
+    },
+    {
+      "text": "Bir üçgenin kaç kenarı vardır?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "answer": 1
+    },
+    {
+      "text": "Aşağıdakilerden hangisi bir müzik aletidir?",
+      "options": [
+        "Gitar",
+        "Fırça",
+        "Çekiç",
+        "Cetvel"
+      ],
+      "answer": 0
+    },
+    {
+      "text": "Hangi hayvan “ormanların kralı” olarak adlandırılır?",
+      "options": [
+        "Fil",
+        "Aslan",
+        "Kaplan",
+        "Ayı"
+      ],
+      "answer": 1
+    },
+    {
+      "text": "Kitapların kütüphanedeki özel numarasına ne denir?",
+      "options": [
+        "Plaka",
+        "Raf numarası",
+        "Barkod / Demirbaş numarası",
+        "Şifre"
+      ],
+      "answer": 2
+    },
+    {
+      "text": "Aşağıdakilerden hangisi bir taşıt değildir?",
+      "options": [
+        "Tren",
+        "Otobüs",
+        "Bisiklet",
+        "Dolap"
+      ],
+      "answer": 3
+    },
+    {
+      "text": "Aşağıdaki gezegenlerden hangisi Dünya’ya en çok benzer?",
+      "options": [
+        "Jüpiter",
+        "Mars",
+        "Neptün",
+        "Uranüs"
+      ],
+      "answer": 1
+    },
+    {
+      "text": "Bir yılda kaç ay vardır?",
+      "options": [
+        "10",
+        "11",
+        "12",
+        "13"
+      ],
+      "answer": 2
+    },
+    {
+      "text": "Aşağıdakilerden hangisi suyun hâllerinden biri değildir?",
+      "options": [
+        "Katı",
+        "Sıvı",
+        "Gaz",
+        "Metal"
+      ],
+      "answer": 3
+    },
+    {
+      "text": "Türkiye’nin en kalabalık şehri hangisidir?",
+      "options": [
+        "İstanbul",
+        "Ankara",
+        "İzmir",
+        "Bursa"
+      ],
+      "answer": 0
+    },
+    {
+      "text": "Dünyanın en büyük okyanusunun adı nedir?",
+      "options": [
+        "Hint Okyanusu",
+        "Atlas Okyanusu",
+        "Büyük Okyanus (Pasifik)",
+        "Kuzey Buz Denizi"
+      ],
+      "answer": 2
+    },
+    {
+      "text": "Aşağıdakilerden hangisi bir duyumuz değildir?",
+      "options": [
+        "Görme",
+        "İşitme",
+        "Tatma",
+        "Yürüme"
+      ],
+      "answer": 3
+    },
+    {
+      "text": "Aşağıdakilerden hangisi bir bilgisayar parçasıdır?",
+      "options": [
+        "Klavye",
+        "Kalem",
+        "Silgi",
+        "Zımba"
+      ],
+      "answer": 0
+    },
+    {
+      "text": "Türk bayrağının rengi aşağıdakilerden hangisidir?",
+      "options": [
+        "Mavi zemin, beyaz ay-yıldız",
+        "Kırmızı zemin, beyaz ay-yıldız",
+        "Yeşil zemin, sarı ay-yıldız",
+        "Siyah zemin, beyaz ay-yıldız"
+      ],
+      "answer": 1
+    },
+    {
+      "text": "“Evliya Çelebi” neyle ünlüdür?",
+      "options": [
+        "Resim yapmakla",
+        "Seyahatleri ve gezi yazılarıyla",
+        "Müzik besteleriyle",
+        "Matematik buluşlarıyla"
+      ],
+      "answer": 1
+    },
+    {
+      "text": "Aşağıdakilerden hangisi bir sebzedir?",
+      "options": [
+        "Elma",
+        "Havuç",
+        "Muz",
+        "Çilek"
+      ],
+      "answer": 1
+    },
+    {
+      "text": "Hangisi bir Türk halk masalı kahramanıdır?",
+      "options": [
+        "Sindirella",
+        "Külkedisi",
+        "Nasreddin Hoca",
+        "Robin Hood"
+      ],
+      "answer": 2
+    },
+    {
+      "text": "Aşağıdakilerden hangisi bir şekildir?",
+      "options": [
+        "Kare",
+        "Kedi",
+        "Ağaç",
+        "Araba"
+      ],
+      "answer": 0
+    },
+    {
+      "text": "Aşağıdaki hayvanlardan hangisi suda ve karada yaşayabilir?",
+      "options": [
+        "Kedi",
+        "Köpek",
+        "Kurbağa",
+        "İnek"
+      ],
+      "answer": 2
+    },
+    {
+      "text": "Aşağıdakilerden hangisi ormanda bulunabilecek bir canlıdır?",
+      "options": [
+        "Balina",
+        "Kutup ayısı",
+        "Geyik",
+        "Köpekbalığı"
+      ],
+      "answer": 2
+    },
+    {
+      "text": "Aşağıdakilerden hangisi bir resim malzemesidir?",
+      "options": [
+        "Fırça",
+        "Çivi",
+        "Tornavida",
+        "Makas"
+      ],
+      "answer": 0
+    },
+    {
+      "text": "Aşağıdakilerden hangisi “kutu oyunu” dur?",
+      "options": [
+        "Satranç",
+        "Futbol",
+        "Yüzme",
+        "Koşu"
+      ],
+      "answer": 0
+    },
+    {
+      "text": "Mikrofon hangi amaçla kullanılır?",
+      "options": [
+        "Yazı yazmak için",
+        "Ses kaydetmek/duyurmak için",
+        "Resim yapmak için",
+        "Silmek için"
+      ],
+      "answer": 1
+    },
+    {
+      "text": "“Kutup Yıldızı” ne tür bir gök cismidir?",
+      "options": [
+        "Gezegen",
+        "Yıldız",
+        "Kuyruklu yıldız",
+        "Uydu"
+      ],
+      "answer": 1
+    },
+    {
+      "text": "Aşağıdakilerden hangisi bir ulaşım aracı değildir?",
+      "options": [
+        "Uçak",
+        "Gemi",
+        "Tren",
+        "Sandalye"
+      ],
+      "answer": 3
+    },
+    {
+      "text": "“Mona Lisa” tablosunu yaptığı bilinen ünlü sanatçı kimdir?",
+      "options": [
+        "Leonardo da Vinci",
+        "Pablo Picasso",
+        "Van Gogh",
+        "Michelangelo"
+      ],
+      "answer": 0
+    },
+    {
+      "text": "Aşağıdakilerden hangisi bir gezegen değildir?",
+      "options": [
+        "Satürn",
+        "Plüton (cüce gezegen)",
+        "Mars",
+        "Güneş"
+      ],
+      "answer": 3
+    },
+    {
+      "text": "Aşağıdakilerden hangisi bir hava olayıdır?",
+      "options": [
+        "Rüzgâr",
+        "Masa",
+        "Kalem",
+        "Çanta"
+      ],
+      "answer": 0
+    },
+    {
+      "text": "Dünyanın en uzun nehri hangisidir?",
+      "options": [
+        "Amazon",
+        "Nil",
+        "Fırat",
+        "Tuna"
+      ],
+      "answer": 1
+    },
+    {
+      "text": "Türkiye'nin başkenti neresidir?",
+      "options": [
+        "İstanbul",
+        "İzmir",
+        "Ankara",
+        "Antalya"
+      ],
+      "answer": 2
+    },
+    {
+      "text": "Japonya hangi kıtada bulunur?",
+      "options": [
+        "Avrupa",
+        "Afrika",
+        "Asya",
+        "Kuzey Amerika"
+      ],
+      "answer": 2
+    },
+    {
+      "text": "Ekvator çizgisi hangi gezegenin etrafından geçer?",
+      "options": [
+        "Mars",
+        "Dünya",
+        "Jüpiter",
+        "Venüs"
+      ],
+      "answer": 1
+    },
+    {
+      "text": "Güneş Sistemi'ndeki en büyük gezegen hangisidir?",
+      "options": [
+        "Mars",
+        "Dünya",
+        "Jüpiter",
+        "Satürn"
+      ],
+      "answer": 2
+    },
+    {
+      "text": "Bir \"yarımada\" ne demektir?",
+      "options": [
+        "Dört tarafı denizle çevrili kara parçası",
+        "Üç tarafı denizle çevrili kara parçası",
+        "Tamamı dağlarla kaplı bölge",
+        "Çok büyük bir çöl"
+      ],
+      "answer": 1
+    },
+    {
+      "text": "Dünyanın en yüksek dağı hangisidir?",
+      "options": [
+        "Ağrı Dağı",
+        "Everest Tepesi",
+        "Kilimanjaro Dağı",
+        "Fuji Dağı"
+      ],
+      "answer": 1
+    },
+    {
+      "text": "Türkiye Cumhuriyeti'nin kurucusu kimdir?",
+      "options": [
+        "İsmet İnönü",
+        "Fatih Sultan Mehmet",
+        "Mustafa Kemal Atatürk",
+        "Kanuni Sultan Süleyman"
+      ],
+      "answer": 2
+    },
+    {
+      "text": "23 Nisan Ulusal Egemenlik ve Çocuk Bayramı kaç yılında ilan edilmiştir?",
+      "options": [
+        "1920",
+        "1923",
+        "1938",
+        "1950"
+      ],
+      "answer": 0
+    },
+    {
+      "text": "İstanbul'un eski adı (Bizans ve Osmanlı dönemleri arasında) nedir?",
+      "options": [
+        "Truva",
+        "Atina",
+        "Konstantiniyye",
+        "Efes"
+      ],
+      "answer": 2
+    },
+    {
+      "text": "\"Yedi Harikalar\"dan günümüze ulaşan tek eser hangisidir?",
+      "options": [
+        "Babil'in Asma Bahçeleri",
+        "İskenderiye Feneri",
+        "Rodos Heykeli",
+        "Keops Piramidi"
+      ],
+      "answer": 3
+    },
+    {
+      "text": "Türk bayrağındaki ay ve yıldız hangi renklerdir?",
+      "options": [
+        "Mavi ve Sarı",
+        "Kırmızı ve Beyaz",
+        "Yeşil ve Siyah",
+        "Mor ve Turuncu"
+      ],
+      "answer": 1
+    },
+    {
+      "text": "Tarihte yazıyı ilk kullanan medeniyet hangisidir?",
+      "options": [
+        "Yunanlar",
+        "Mısırlılar",
+        "Sümerler",
+        "Hititler"
+      ],
+      "answer": 2
+    },
+    {
+      "text": "Türkiye'nin Karadeniz Bölgesi'nde meşhur olan halk oyunu hangisidir?",
+      "options": [
         "Zeybek",
-        "Kaşık Oyunu",
-        "Halay"
+        "Horon",
+        "Halay",
+        "Kaşık"
+      ],
+      "answer": 1
+    },
+    {
+      "text": "Bitkilerin yeşil renkte olmasını sağlayan madde nedir?",
+      "options": [
+        "Karbon",
+        "Klorofil",
+        "Oksijen",
+        "Kalsiyum"
+      ],
+      "answer": 1
+    },
+    {
+      "text": "İnsan vücudundaki en sert madde nedir?",
+      "options": [
+        "Kemik",
+        "Tırnak",
+        "Diş minesi",
+        "Kıkırdak"
       ],
       "answer": 2
     },
     {
-      "text": "Konya’nın meşhur tahin markalarının ortaya çıktığı ilçe hangisidir?",
+      "text": "Yaşayan en büyük hayvan hangisidir?",
       "options": [
-        "Seydişehir",
-        "Kulu",
-        "Akşehir",
-        "Bozkır"
+        "Afrika Fili",
+        "Mavi Balina",
+        "Zürafa",
+        "Timsah"
+      ],
+      "answer": 1
+    },
+    {
+      "text": "Bir bitkinin kökleri hangi görevi yerine getirir?",
+      "options": [
+        "Güneş ışığı toplamak",
+        "Çiçek açmak",
+        "Su ve besinleri topraktan almak",
+        "Tohum üretmek"
+      ],
+      "answer": 2
+    },
+    {
+      "text": "Gökkuşağı kaç renkten oluşur?",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "answer": 2
+    },
+    {
+      "text": "Bilgisayar ve telefon gibi cihazların beyni olarak görev yapan parça nedir?",
+      "options": [
+        "Ekran",
+        "Klavye",
+        "İşlemci (CPU)",
+        "Hoparlör"
+      ],
+      "answer": 2
+    },
+    {
+      "text": "Dünya'nın uydusu nedir?",
+      "options": [
+        "Mars",
+        "Ay",
+        "Güneş",
+        "Venüs"
+      ],
+      "answer": 1
+    },
+    {
+      "text": "Vücudumuzda kanı pompalamakla görevli organımız hangisidir?",
+      "options": [
+        "Akciğer",
+        "Karaciğer",
+        "Kalp",
+        "Böbrek"
+      ],
+      "answer": 2
+    },
+    {
+      "text": "Resimde ana renkler hangileridir?",
+      "options": [
+        "Yeşil, Turuncu, Mor",
+        "Kırmızı, Sarı, Mavi",
+        "Beyaz, Siyah, Gri",
+        "Pembe, Açık Mavi, Lila"
+      ],
+      "answer": 1
+    },
+    {
+      "text": "Müzikte kullanılan ve seslerin inceliğini/kalınlığını gösteren işaret nedir?",
+      "options": [
+        "Notalar",
+        "Anahtarlar (Sol Anahtarı vb.)",
+        "Ölçü Çizgisi",
+        "Tempo"
+      ],
+      "answer": 1
+    },
+    {
+      "text": "Leonardo da Vinci'nin en ünlü tablosu hangisidir?",
+      "options": [
+        "Yıldızlı Gece",
+        "Çığlık",
+        "Mona Lisa",
+        "Guernica"
+      ],
+      "answer": 2
+    },
+    {
+      "text": "\"Piyano\" hangi müzik aletleri grubuna girer?",
+      "options": [
+        "Üflemeli",
+        "Vurmalı",
+        "Telli (Tuşlu)",
+        "Nefesli"
+      ],
+      "answer": 2
+    },
+    {
+      "text": "Türk edebiyatının ünlü şairi ve İstiklal Marşı'nın yazarı kimdir?",
+      "options": [
+        "Orhan Veli Kanık",
+        "Yahya Kemal Beyatlı",
+        "Mehmet Akif Ersoy",
+        "Nazım Hikmet Ran"
+      ],
+      "answer": 2
+    },
+    {
+      "text": "Futbol maçına kaç kişi ile başlanır (bir takımda)?",
+      "options": [
+        "9",
+        "10",
+        "11",
+        "12"
+      ],
+      "answer": 2
+    },
+    {
+      "text": "Bir \"desen\" veya \"model\" oluşturmak için kullanılan küçük, birbirine kenetlenen plastik tuğlalar hangi markaya aittir?",
+      "options": [
+        "Play-Doh",
+        "Barbie",
+        "Hot Wheels",
+        "Lego"
       ],
       "answer": 3
     },
     {
-      "text": "Konya’da bulunan İnce Minareli Medrese hangi döneme aittir?",
+      "text": "Telefonu icat eden kişi kimdir?",
       "options": [
-        "Osmanlı",
-        "Roma",
-        "Selçuklu",
-        "Cumhuriyet"
+        "Thomas Edison",
+        "Albert Einstein",
+        "Alexander Graham Bell",
+        "Nikola Tesla"
       ],
       "answer": 2
     },
     {
-      "text": "Konya’nın en uzun karayolu tüneli hangisidir?",
+      "text": "Bir bilgisayarı veya akıllı cihazı açıp kapatmak için kullanılan kelime nedir?",
       "options": [
-        "Seydişehir Tüneli",
-        "Alacabel Tüneli",
-        "Bozdağ Tüneli",
-        "Çatalhöyük Tüneli"
+        "İndir",
+        "Yükle",
+        "Başlat/Kapat (Aç/Kapa)",
+        "Çevir"
+      ],
+      "answer": 2
+    },
+    {
+      "text": "\"Manga\" ve \"Anime\" hangi ülkenin kültürüne aittir?",
+      "options": [
+        "Çin",
+        "Kore",
+        "Japonya",
+        "Hindistan"
+      ],
+      "answer": 2
+    },
+    {
+      "text": "Bir basketbol maçında bir sayı kaç puandır?",
+      "options": [
+        "1 puan",
+        "2 puan",
+        "3 puan",
+        "4 puan"
       ],
       "answer": 1
     },
     {
-      "text": "Konya'da yetiştirilen en ünlü hayvan türü hangisidir?",
+      "text": "Bir yıl kaç aydır?",
       "options": [
-        "İpek böceği",
-        "Tiftik keçisi",
-        "Bozkır koyunu",
-        "Manda"
+        "10",
+        "11",
+        "12",
+        "13"
       ],
       "answer": 2
     },
     {
-      "text": "Konya’da bulunan Karapınar bölgesi hangi doğal oluşumla ünlüdür?",
+      "text": "\"Dört element\" denildiğinde akla gelenler nelerdir?",
       "options": [
-        "Obruklar",
-        "Buzullar",
-        "Volkanik dağlar",
-        "Fiyortlar"
+        "Işık, Gölge, Ses, Koku",
+        "Kitap, Defter, Kalem, Silgi",
+        "Hava, Su, Toprak, Ateş",
+        "Sıcak, Soğuk, Islak, Kuru"
+      ],
+      "answer": 2
+    },
+    {
+      "text": "Satranç tahtasında en güçlü taş hangisidir?",
+      "options": [
+        "Şah",
+        "Kale",
+        "Vezir",
+        "At"
+      ],
+      "answer": 2
+    },
+    {
+      "text": "Mevlânâ’nın tam adı nedir?",
+      "options": [
+        "Mevlânâ Celâleddîn-i Rûmî",
+        "Mevlânâ Yunus Emre",
+        "Mevlânâ Hacı Bektaş",
+        "Mevlânâ İbn Sina"
       ],
       "answer": 0
     },
     {
-      "text": "Konya’da bulunan Zazadin Hanı hangi yapılar sınıfındadır?",
+      "text": "Mevlânâ hangi şehirde vefat etmiştir?",
       "options": [
-        "Köprü",
-        "Han/Kervansaray",
-        "Medrese",
-        "Beylik sarayı"
+        "İstanbul",
+        "Konya",
+        "Bursa",
+        "Ankara"
       ],
       "answer": 1
     },
     {
-      "text": "Konya’da yer alan Kelebekler Vadisi hangi özelliğiyle bilinir?",
+      "text": "Şeb-i Arus neyi ifade eder?",
       "options": [
-        "Deniz kıyısındadır",
-        "Bir doğa parkıdır",
-        "Tropikal kelebek türlerini barındırır",
-        "Dağcılık sporları için uygundur"
+        "Mevlânâ’nın doğum gecesini",
+        "Mevlânâ’nın düğününü",
+        "Mevlânâ’nın Hakk’a kavuştuğu geceyi",
+        "Mevlânâ’nın Konya’ya gelişini"
       ],
       "answer": 2
     },
     {
-      "text": "Konya’nın iklimi genel olarak nasıldır?",
+      "text": "“Ne olursan ol yine gel” sözü kime aittir? (Yaygın kabul)",
       "options": [
-        "Ekvator tipi iklim",
-        "Karadeniz iklimi",
-        "Karasal iklim",
-        "Tropikal iklim"
+        "Fatih Sultan Mehmet",
+        "Yunus Emre",
+        "Hacı Bektaş Veli",
+        "Mevlânâ"
+      ],
+      "answer": 3
+    },
+    {
+      "text": "Mevlânâ’nın en bilinen eserinin adı nedir?",
+      "options": [
+        "Divan-ı Kebir",
+        "Mesnevî",
+        "Risale-i Nur",
+        "Sefiller"
+      ],
+      "answer": 1
+    },
+    {
+      "text": "Mevlânâ’nın öğretilerinin temelinde hangi değer daha çok vurgulanır?",
+      "options": [
+        "Savaş",
+        "Sevgi ve hoşgörü",
+        "Rekabet",
+        "Korku"
+      ],
+      "answer": 1
+    },
+    {
+      "text": "Şeb-i Arus törenleri en çok hangi şehirde yapılmaktadır?",
+      "options": [
+        "İzmir",
+        "Konya",
+        "Trabzon",
+        "Antalya"
+      ],
+      "answer": 1
+    },
+    {
+      "text": "Mevlânâ’nın babasının adı nedir?",
+      "options": [
+        "Sultan Veled",
+        "Bahaeddin Veled",
+        "Yavuz Selim",
+        "Alâeddin Keykubat"
+      ],
+      "answer": 1
+    },
+    {
+      "text": "Mevlânâ hangi yüzyılda yaşamıştır?",
+      "options": [
+        "5. yüzyıl",
+        "8. yüzyıl",
+        "13. yüzyıl",
+        "19. yüzyıl"
       ],
       "answer": 2
     },
     {
-      "text": "Aşağıdakilerden hangisi Konya’nın eski isimlerindendir?",
+      "text": "Sema eden dervişlere ne ad verilir?",
       "options": [
-        "Ikonion",
-        "Sagalassos",
-        "Tlos",
-        "Aphrodisias"
+        "Semazen",
+        "Hafız",
+        "Hatip",
+        "Müezzin"
       ],
       "answer": 0
     },
     {
-      "text": "Konya’nın meşhur tatlısı ‘Konya Küflü Peyniri’ hangi ilçede ünlüdür?",
+      "text": "Şeb-i Arus ifadesindeki “Şeb” kelimesi ne anlama gelir?",
       "options": [
-        "Akşehir",
-        "Kulu",
-        "Ereğli",
-        "Seydişehir"
+        "Gündüz",
+        "Gece",
+        "Yol",
+        "Aşk"
+      ],
+      "answer": 1
+    },
+    {
+      "text": "Şeb-i Arus ne zaman (hangi ayda) anılır?",
+      "options": [
+        "Ocak ayı",
+        "Mart ayı",
+        "Haziran ayı",
+        "Aralık ayı"
+      ],
+      "answer": 3
+    },
+    {
+      "text": "Mevlânâ’nın kabrinin bulunduğu yer bugün hangi müzedir?",
+      "options": [
+        "Topkapı Sarayı Müzesi",
+        "Mevlânâ Müzesi",
+        "Anadolu Medeniyetleri Müzesi",
+        "Ayasofya Müzesi"
+      ],
+      "answer": 1
+    },
+    {
+      "text": "Sema töreninde dönen dervişlerin giydiği uzun beyaz kıyafete ne denir?",
+      "options": [
+        "Cübbe",
+        "Tennure",
+        "Kaftan",
+        "Şalvar"
+      ],
+      "answer": 1
+    },
+    {
+      "text": "Mevlânâ’nın öğretilerini yaymak için kurulan yola ne ad verilir?",
+      "options": [
+        "Mevlevîlik",
+        "Nakşibendîlik",
+        "Bektaşîlik",
+        "Kadirîlik"
       ],
       "answer": 0
     },
     {
-      "text": "Konya’daki en büyük organize sanayi bölgesi nerededir?",
+      "text": "Şeb-i Arus törenlerinde hangi sanat dalı önemli bir yer tutar?",
       "options": [
+        "Opera",
+        "Bale",
+        "Tasavvuf musikisi",
+        "Rock müzik"
+      ],
+      "answer": 2
+    },
+    {
+      "text": "Mevlânâ’nın çok sevdiği, fikir alışverişi yaptığı dostu kimdir?",
+      "options": [
+        "Şems-i Tebrîzî",
+        "Hacı Bayram-ı Veli",
+        "Kanuni Sultan Süleyman",
+        "Mimar Sinan"
+      ],
+      "answer": 0
+    },
+    {
+      "text": "“Düğün gecesi” anlamına gelen ifade hangisidir?",
+      "options": [
+        "Sema",
+        "Şeb-i Arus",
+        "Mesnevî",
+        "Divan"
+      ],
+      "answer": 1
+    },
+    {
+      "text": "Mevlânâ’nın öğretilerinde sık geçen “ney” nedir?",
+      "options": [
+        "Bir yemek türü",
+        "Bir oyun",
+        "Bir müzik aleti",
+        "Bir kitap"
+      ],
+      "answer": 2
+    },
+    {
+      "text": "Şeb-i Arus törenlerinde genelde hangi hareket yapılır?",
+      "options": [
+        "Koşu",
+        "Zıplama",
+        "Dönerek ibadet (sema)",
+        "Resim çizme"
+      ],
+      "answer": 2
+    },
+    {
+      "text": "Konya Türkiye’nin hangi bölgesindedir?",
+      "options": [
+        "Ege Bölgesi",
+        "İç Anadolu Bölgesi",
+        "Marmara Bölgesi",
+        "Karadeniz Bölgesi"
+      ],
+      "answer": 1
+    },
+    {
+      "text": "Aşağıdakilerden hangisi Konya’nın meşhur yemeklerindendir?",
+      "options": [
+        "Etli ekmek",
+        "İskender kebap",
+        "Kuru fasulye",
+        "Döner dürüm"
+      ],
+      "answer": 0
+    },
+    {
+      "text": "Konya, hangi eski Türk devletine bir dönem başkentlik yapmıştır?",
+      "options": [
+        "Osmanlı Devleti",
+        "Selçuklu Devleti",
+        "Akkoyunlular",
+        "Safevîler"
+      ],
+      "answer": 1
+    },
+    {
+      "text": "Konya’daki ünlü yeşil renkli türbe kubbesiyle tanınan yapı hangisidir?",
+      "options": [
+        "Saat Kulesi",
+        "Mevlânâ Türbesi",
+        "Galata Kulesi",
+        "Kız Kulesi"
+      ],
+      "answer": 1
+    },
+    {
+      "text": "Konya’nın sembol ilçelerinden biri değildir?",
+      "options": [
+        "Karatay",
         "Meram",
         "Selçuklu",
-        "Karatay",
-        "Sarayönü"
-      ],
-      "answer": 1
-    },
-    {
-      "text": "Konya’daki Meram bağları hangi özelliğiyle bilinir?",
-      "options": [
-        "Karadeniz yaylalarına benzer",
-        "Serin ve gölgeli piknik alanlarıdır",
-        "Deniz turizmi yapılır",
-        "Sualtı mağaraları vardır"
-      ],
-      "answer": 1
-    },
-    {
-      "text": "Konya’da bulunan Beyşehir Gölü Türkiye’nin kaçıncı büyük gölüdür?",
-      "options": [
-        "1.",
-        "2.",
-        "3.",
-        "4."
-      ],
-      "answer": 1
-    },
-    {
-      "text": "Konya’daki Tropikal Kelebek Bahçesi kaçıncı yılda açılmıştır?",
-      "options": [
-        "2005",
-        "2010",
-        "2015",
-        "2020"
-      ],
-      "answer": 2
-    },
-    {
-      "text": "Konya'nın ünlü hamur işi hangisidir?",
-      "options": [
-        "Pide",
-        "Tandır böreği",
-        "Somun",
-        "Katmer"
-      ],
-      "answer": 1
-    },
-    {
-      "text": "Konya Bilim Merkezi’nin tasarımında hangi geometrik yapı dikkat çeker?",
-      "options": [
-        "Piramit şekli",
-        "Gökkuşağı kemeri",
-        "Uzay mekiği formu",
-        "Kubbeli yapı"
+        "Beşiktaş"
       ],
       "answer": 3
     },
     {
-      "text": "Konya'nın en bilinen höyüğü hangisidir?",
+      "text": "Konya’da yer alan tarihi tepelerden biri hangisidir?",
       "options": [
-        "Alacahöyük",
-        "Çatalhöyük",
-        "Göbeklitepe",
-        "Karahöyük"
+        "Alaeddin Tepesi",
+        "Çamlıca Tepesi",
+        "Yuşa Tepesi",
+        "Karlıtepe"
       ],
-      "answer": 1
+      "answer": 0
     },
     {
-      "text": "Sille taş evleri hangi özelliğiyle ünlüdür?",
+      "text": "Aşağıdakilerden hangisi Konya’da bulunan bir medresedir?",
       "options": [
-        "Karadeniz mimarisine benzer",
-        "Tamamen ahşaptır",
-        "Tarihi Rum mimarisini yansıtır",
-        "Modern yapıdır"
+        "Karatay Medresesi",
+        "Sahn-ı Seman Medresesi",
+        "Fatih Medresesi",
+        "Süleymaniye Medresesi"
+      ],
+      "answer": 0
+    },
+    {
+      "text": "Konya’da düzenlenen Şeb-i Arus törenlerine kimler katılabilir?",
+      "options": [
+        "Sadece öğretmenler",
+        "Sadece turistler",
+        "Her yaştan insanlar",
+        "Sadece öğrenciler"
       ],
       "answer": 2
     },
     {
-      "text": "Konya’nın simgesi haline gelmiş canlı türü hangisidir?",
+      "text": "Mevlânâ’nın düşüncesine göre insanlar birbirine nasıl davranmalıdır?",
       "options": [
-        "Van kedisi",
-        "Akdeniz fokları",
-        "Bozkır kartalı",
-        "Turna kuşu"
+        "Kaba ve kırıcı",
+        "Sadece kendini düşünen",
+        "Sevgi dolu ve saygılı",
+        "Sessiz ve uzak"
+      ],
+      "answer": 2
+    },
+    {
+      "text": "Şeb-i Arus törenleri hangi amaçla yapılır?",
+      "options": [
+        "Eğlenmek için",
+        "Mevlânâ’yı ve öğretilerini anmak için",
+        "Spor yapmak için",
+        "Yarışma yapmak için"
+      ],
+      "answer": 1
+    },
+    {
+      "text": "Mevlânâ’nın dilinde “aşk” daha çok neyi ifade eder?",
+      "options": [
+        "Sadece iki kişi arasındaki sevgiyi",
+        "Allah’a duyulan sevgiyi",
+        "Yemek sevgisini",
+        "Para sevgisini"
+      ],
+      "answer": 1
+    },
+    {
+      "text": "Sema töreninde semazenlerin başındaki uzun başlık neyi simgeler?",
+      "options": [
+        "Taç",
+        "Şapkayı",
+        "Dünya malını",
+        "Nefsin mezar taşını"
       ],
       "answer": 3
     },
     {
-      "text": "Konya'nın plaka numarası kaçtır?",
+      "text": "Konya’da Şeb-i Arus döneminde şehirde nasıl bir atmosfer oluşur?",
       "options": [
-        "41",
-        "42",
-        "43",
-        "44"
+        "Sadece sessizlik",
+        "Festival ve anma havası",
+        "Savaş hazırlığı",
+        "Hiçbir değişiklik olmaz"
       ],
       "answer": 1
     },
     {
-      "text": "Türkiye’nin yüzölçümü en geniş ovası olan ‘Konya Ovası’ hangi bölgede bulunur?",
+      "text": "Mevlânâ’nın “Gel, ne olursan ol, yine gel” sözü aşağıdakilerden hangisini anlatır?",
       "options": [
-        "Doğu Anadolu",
-        "İç Anadolu",
-        "Marmara",
-        "Ege"
+        "Sadece zenginler gelsin",
+        "Herkese kapıların açık olduğu",
+        "Sadece çocuklar gelsin",
+        "Sadece Konya’da yaşayanlar gelsin"
       ],
       "answer": 1
+    },
+    {
+      "text": "Konya ile özdeşleşmiş ulaşım aracı hangisidir? (Eski zamanlardan)",
+      "options": [
+        "Tramvay",
+        "Fayton",
+        "Develer ve kervanlar",
+        "Deniz otobüsü"
+      ],
+      "answer": 2
+    },
+    {
+      "text": "Mevlânâ’nın mezarının bulunduğu Konya’daki yapı hangi tür yapıdır?",
+      "options": [
+        "Sinema",
+        "Spor salonu",
+        "Türbe ve müze",
+        "Alışveriş merkezi"
+      ],
+      "answer": 2
+    },
+    {
+      "text": "Mevlânâ’nın hayatı ve öğretileri, bugün en çok hangi yollarla tanıtılmaktadır?",
+      "options": [
+        "Bilgisayar oyunlarıyla",
+        "Film, kitap, sema gösterileri ve müzelerle",
+        "Sadece gazetelerle",
+        "Sadece mektuplarla"
+      ],
+      "answer": 1
+    },
+    {
+      "text": "Aşağıdakilerden hangisi Konya’nın doğal güzelliklerinden biridir?",
+      "options": [
+        "Mevlânâ Adası",
+        "Meke Gölü (Meke Krater Gölü)",
+        "Van Gölü",
+        "Uzungöl"
+      ],
+      "answer": 1
+    },
+    {
+      "text": "Şeb-i Arus törenlerinde semazenler dönerken kollarını nasıl açarlar?",
+      "options": [
+        "Kollar göğüste çapraz",
+        "İki kol da aşağıda",
+        "Bir kol yukarı, bir kol aşağı",
+        "İki kol da arkada"
+      ],
+      "answer": 2
+    },
+    {
+      "text": "Sema töreninin yapıldığı yere ne ad verilir?",
+      "options": [
+        "Sema salonu / semahane",
+        "Kütüphane",
+        "Laboratuvar",
+        "Spor salonu"
+      ],
+      "answer": 0
+    },
+    {
+      "text": "Mevlânâ’nın düşüncelerinde insanlar arasındaki farklılıklar nasıl görülür?",
+      "options": [
+        "Birlikte zenginlik olarak",
+        "Kavga sebebi olarak",
+        "Görmezden gelinmesi gereken şeyler",
+        "Sadece yarışma sebebi"
+      ],
+      "answer": 0
+    },
+    {
+      "text": "Konya’da, Mevlânâ ile ilgili en çok ziyaret edilen yer neresidir?",
+      "options": [
+        "Lunapark",
+        "Mevlânâ Müzesi",
+        "Stadyum",
+        "Havaalanı"
+      ],
+      "answer": 1
+    },
+    {
+      "text": "Mevlânâ’nın “Mesnevî” adlı eseri hangi türdedir?",
+      "options": [
+        "Masal kitabı",
+        "Şiir ve hikâyelerden oluşan tasavvufî bir eser",
+        "Matematik kitabı",
+        "Ansiklopedi"
+      ],
+      "answer": 1
+    },
+    {
+      "text": "Aşağıdakilerden hangisi Şeb-i Arus törenlerinde görülen unsurlardan biridir?",
+      "options": [
+        "Futbol maçı",
+        "Sema gösterisi",
+        "Bisiklet yarışı",
+        "Satranç turnuvası"
+      ],
+      "answer": 1
+    },
+    {
+      "text": "Konya’nın tarih boyunca önemli olmasının sebeplerinden biri nedir?",
+      "options": [
+        "Deniz kıyısında olması",
+        "Orman şehri olması",
+        "Ticaret yolları üzerinde ve başkent olması",
+        "Sadece küçük bir köy olması"
+      ],
+      "answer": 2
+    },
+    {
+      "text": "Mevlânâ’nın öğretilerinde “hoşgörü” ne anlama gelir?",
+      "options": [
+        "Kimseyi dinlememek",
+        "Hatalara anlayışla yaklaşmak",
+        "Herkese kızmak",
+        "Kimseyle konuşmamak"
+      ],
+      "answer": 1
+    },
+    {
+      "text": "Konya’daki Mevlânâ Müzesi’ne giden bir öğrenci en çok ne öğrenebilir?",
+      "options": [
+        "Sadece matematik formülleri",
+        "Mevlânâ’nın hayatını, eşyalarını ve öğretilerini",
+        "Futbol takımlarının tarihini",
+        "Yabancı dilleri"
+      ],
+      "answer": 1
+    },
+    {
+      "text": "Şeb-i Arus gecesinde yapılan programlar genellikle nasıl bir havada geçer?",
+      "options": [
+        "Sadece gürültülü eğlence",
+        "Saygı, sevgi ve anma havasında",
+        "Kavga ortamında",
+        "Sadece yarışma ortamında"
+      ],
+      "answer": 1
+    },
+    {
+      "text": "Mevlânâ’nın düşüncesine göre, insan kendini geliştirmek için ne yapmalıdır?",
+      "options": [
+        "Hiç kitap okumamalı",
+        "Kimseyle konuşmamalı",
+        "Düşünmeli, öğrenmeli ve kalbini güzelleştirmeli",
+        "Sadece oyun oynamalı"
+      ],
+      "answer": 2
+    },
+    {
+      "text": "Konya’da Şeb-i Arus döneminde şehre gelen misafirler en çok ne yapar?",
+      "options": [
+        "Mevlânâ’yı ve Konya’yı tanımaya çalışır",
+        "Sadece alışveriş yapar",
+        "Sadece denize girer",
+        "Sadece uyur"
+      ],
+      "answer": 0
     }
   ]
 }

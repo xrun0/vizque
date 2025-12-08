@@ -89,7 +89,7 @@ class MainWindow(QMainWindow):
         self.setup_camera()
 
         # (İstersen debug görüntü)
-        self.camera_worker.frameReady.connect(self.on_debug_frame)
+        #self.camera_worker.frameReady.connect(self.on_debug_frame)
         self.geri_sayim.baslat()
         QTimer.singleShot(3000, self.camera_background_ready)
         # Soruları yükle

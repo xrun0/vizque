@@ -72,7 +72,7 @@ class QuestionPage(QWidget):
         root.addWidget(self.questionBox)
 
         # ==== TALİMAT ====
-        self.instruction = QLabel("Cevabı olduğunu düşündüğünüz şıkka zıplayabilirsiniz!")
+        self.instruction = QLabel("Cevabı olduğunu düşündüğünüz şıkkın üzerine yürüyünüz!")
         self.instruction.setObjectName("instruction")
         self.instruction.setAlignment(Qt.AlignCenter)
         root.addWidget(self.instruction)
